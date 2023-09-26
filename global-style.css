@@ -18,7 +18,7 @@ h2 {
 header {
   font-size: 2rem;
   padding-bottom: 5px;
-  border-bottom: 2px solid #b1e1e3;
+  border-bottom: 2px solid #2d2e32;
 }
 
 .desktop-nav {
@@ -27,17 +27,17 @@ header {
   position: fixed;
   top: 0;
   min-height: 100vh;
-  background-color: #418ca6;
-  color: #ffffff;
+  background-color: #2d2e32;
+  color: #64f4ab;
   visibility: visible;
 }
 .mobile-nav {
   visibility: hidden;
   position: fixed;
-  background-color: #418ca6;
+  background-color: #2d2e32;
   top: 0;
   display: flex;
-  color: #ffffff;
+  color: #64f4ab;
   width: 100%;
   align-items: center;
   height: 4rem;
@@ -64,7 +64,7 @@ header {
 }
 .mobile-nav > div > button:hover {
   display: block;
-  background-color: #b1e1e3;
+  background-color: #2d2e32;
 }
 .mobile-nav > div > button:hover .section-items {
   display: block;
@@ -102,7 +102,7 @@ section {
   display: flex;
 }
 .desktop-nav > ul > li:hover {
-  color: #b1e1e3;
+  color: #2d2e32;
 }
 .nav-link {
   padding: 0.5rem 0.5rem;
@@ -138,11 +138,11 @@ section {
   padding: 12px 16px;
   text-decoration-style: none;
   display: block;
-  background-color: #418ca6;
+  background-color: #2d2e32;
 }
 
 .dropdown-content a:hover {
-  color: #b1e1e3;
+  color: #2d2e32;
 }
 
 .dropdown:hover .dropdown-content {
@@ -150,8 +150,8 @@ section {
 }
 
 .dropdown:hover .dropbtn {
-  color: #b1e1e3;
-  background-color: #418ca6;
+  color: #2d2e32;
+  background-color: #2d2e32;
 }
 
 .dropbtn {
